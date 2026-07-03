@@ -43,7 +43,7 @@ const RegisterUser = () => {
         setIsSaving(true)
 
         try {
-            await apiClient.post('/users', {
+            await apiClient.post('/cadastro', {
                 email, senha: password
             })
 
